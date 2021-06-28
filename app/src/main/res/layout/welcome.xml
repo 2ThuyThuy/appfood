@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".mainlayout.Welcome"
+    android:weightSum="3"
+    android:background="#f2f2f2">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:background="@drawable/anh1">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="300dp"
+           android:layout_marginTop="7dp"
+           android:text="Log out"
+           android:id="@+id/tvLogout"
+           android:textStyle="italic"
+           android:textColor="#6d1d17"/>
+
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:id="@+id/tvv"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="158dp"
+               android:layout_marginTop="50dp"
+               android:text="Xin chào,"
+               android:textColor="#6d1d17"
+               android:textSize="25dp"
+               android:textStyle="bold">
+
+           </TextView>
+
+           <TextView
+               android:id="@+id/tvsetUsername"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="7dp"
+               android:layout_marginTop="50dp"
+               android:textColor="#6d1d17"
+               android:layout_toRightOf="@+id/tvv"
+               android:textSize="25dp">
+
+           </TextView>
+       </RelativeLayout>
+   </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9C3838"
+            android:text="Không cầu tinh thông cầm kỳ thi họa"
+            android:layout_centerInParent="true"
+            android:textSize="14dp"
+            android:textStyle="italic"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9C3838"
+            android:text="Chỉ mong chiên, xào, hấp, luộc món nào cũng được ăn!"
+            android:layout_centerInParent="true"
+            android:textSize="14dp"
+            android:textStyle="italic"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:src="@drawable/hd"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/imgIntroduce"
+            ></ImageView>
+        <ImageView
+            android:src="@drawable/ctna"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgFood"
+            android:layout_weight="1"
+            >
+        </ImageView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:weightSum="2">
+
+        <ImageView
+            android:src="@drawable/cda"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/imgMode"
+            ></ImageView>
+        <ImageView
+            android:src="@drawable/tdd"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgTower"
+            android:layout_weight="1"
+            >
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
